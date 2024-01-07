@@ -11,7 +11,8 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser", from: "1.3.0"),
         .package(url: "https://github.com/Arman1997/Driven", branch: "master"),
-        .package(url: "https://github.com/Arman1997/DeclarativeSwiftSyntax", branch: "master")
+        .package(url: "https://github.com/Arman1997/DeclarativeSwiftSyntax", branch: "master"),
+        .package(url: "https://github.com/jpsim/Yams.git", from: "5.0.6")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -21,7 +22,8 @@ let package = Package(
             dependencies: [
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
                 .product(name: "Driven", package: "Driven"),
-                .product(name: "DeclarativeSwiftSyntax", package: "DeclarativeSwiftSyntax")
+                .product(name: "DeclarativeSwiftSyntax", package: "DeclarativeSwiftSyntax"),
+                .product(name: "Yams", package: "Yams")
             ]
         ),
     ]

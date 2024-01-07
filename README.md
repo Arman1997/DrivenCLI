@@ -10,6 +10,7 @@ cd DrivenCLI
 ```
 
 ##### Build the project
+This may take a while.
 ```
 swift build -c release --verbose
 ```
