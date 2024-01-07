@@ -1,6 +1,24 @@
 {
   "pins" : [
     {
+      "identity" : "declarativeswiftsyntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Arman1997/DeclarativeSwiftSyntax",
+      "state" : {
+        "branch" : "master",
+        "revision" : "75be1ed1f583a6512dfa36fe3a7dc190f156c285"
+      }
+    },
+    {
+      "identity" : "driven",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Arman1997/Driven",
+      "state" : {
+        "branch" : "master",
+        "revision" : "a9d8ba2e1c3106e71a656a8e91d2d5704c4f75dd"
+      }
+    },
+    {
       "identity" : "swift-argument-parser",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-argument-parser",
